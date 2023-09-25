@@ -1,6 +1,6 @@
 export default {
   root: "src",
-  base: "/html-css-practice/",
+  base: "/github-action-test/",
   build: {
     outDir: "../dist",
   },

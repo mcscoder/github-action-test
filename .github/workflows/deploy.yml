@@ -25,7 +25,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: $ { { steps.deployment.outputs.page_url }}
+      url: https://mcscoder.github.io/github-action-test/
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
